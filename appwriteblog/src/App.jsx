@@ -1,12 +1,18 @@
  
+import { useEffect, useState } from 'react'
 import './App.css'
+import config from './conf'
+import authService from './appwrite/auth'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
+
+    
 
   return (
     <>
-      <h1>app write blog with react js</h1>
+      <h1>url: {config.appWriteUrl}</h1>
+      
     </>
   )
 }
